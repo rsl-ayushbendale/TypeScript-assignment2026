@@ -1,0 +1,9 @@
+{
+  "name": "organization-management",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tsc --noEmit",
+    "check": "tsx src/index.ts"
+  }
+}
