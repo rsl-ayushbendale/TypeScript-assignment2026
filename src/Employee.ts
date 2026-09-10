@@ -1,6 +1,6 @@
-import { EmployeeDesignation } from "./types";
+import { EmployeeDesignation, EmployeeRecord } from "./types";
 
-export class Employee {
+export class Employee implements EmployeeRecord {
   public readonly reportees: string[] = [];
 
   public constructor(
